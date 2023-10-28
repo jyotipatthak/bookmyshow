@@ -99,7 +99,7 @@ if you are a new user and haven't done any booking previously.
 4.  After selecting and hitting book button it will show you an alert of TICKET BOOKED SUCCESSFULLY.
 <br> 
 
-![Alt Screenshot](/screenshots/3.png )
+![Alt Screenshot](/ScreenShots/3.png)
 
 
 
