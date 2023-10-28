@@ -1,0 +1,175 @@
+/* Define common styles for movie, seat, and slot columns */
+.movie-column,
+.seat-column,
+.slot-column {
+    display: inline-block;
+    margin: 5px;
+    color: rgb(21, 21, 21);
+    border: 1px rgb(0, 0, 0) ridge;
+    padding: 9px 15px;
+    line-height: 1px;
+    border-radius: 5px;
+    border-color: rgb(255, 0, 0);
+    background-color: #ecb7b7;
+    font-style: oblique;
+}
+
+/* Define common styles for rows that contain movies, seats, and slots */
+.movie-row,
+.seat-row,
+.slot-row {
+    border-radius: 10px;
+    border: 1px rgb(230, 15, 15) ridge;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #1dc4703f;
+}
+
+/* Specific style for seat columns */
+.seat-column {
+    min-width: 100px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+/* Styles for the "Book Now" button */
+.book-button button {
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1em;
+    color: white;
+    background: linear-gradient(to right, #e08a48, #f31818, #f1079b);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2cd158", endColorstr="#2c6ce0", GradientType=1);
+    padding: 7px 15px;
+    font-weight: 500;
+}
+
+/* Styles for selected movie, seat, and slot columns */
+.movie-column-selected,
+.seat-column-selected,
+.slot-column-selected {
+    background: #fb1a1ac7;
+    box-shadow: rgba(222, 23, 23, 0.805) 0px 5px 15px;
+}
+
+/* Style for input fields */
+input {
+    width: 50px;
+    border-color: rgb(196, 196, 196);
+    border-width: 1px;
+}
+
+/* Styles for the "Last Booking" section */
+.last-order {
+    background-color: #fa1919da;
+    border: 1px rgb(0, 0, 0) ridge;
+    border-radius: 10px;
+    margin-bottom: 10%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    font-style: oblique;
+}
+
+/* Hover styles for movie, seat, and slot columns */
+.movie-column:hover,
+.seat-column:hover,
+.slot-column:hover {
+    cursor: pointer;
+    color: #330686;
+}
+
+/* General container styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #961b1b7a;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px;
+    box-shadow: rgba(117, 4, 4, 0.25) 0px 54px 55px, rgba(91, 10, 10, 0.12) 0px -12px 30px, rgba(112, 14, 14, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* Styles for the "Select Column" */
+.selectColumn {
+    padding: 7px;
+    margin-top: 2px;
+}
+
+/* Styles for the "Booking Column" */
+.bookingColumn {
+    margin-top: 63px;
+    padding: 20px;
+    background-color: #b4b84b00;
+    height: 90%;
+    border: 1px rgb(238, 14, 14) ridge;
+    border-radius: 10px;
+}
+
+/* Styling for the "my" element */
+.my {
+    background-color: rgb(202, 34, 34);
+    color: black;
+    border-radius: 15px 15px 5px 5px;
+    font-style: italic;
+}
+
+/* Disable scrollbar */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Responsive styles for small screens */
+@media (min-width: 200px) {
+    .header {
+        width: 100%;
+        border-radius: 30px;
+        text-align: left;
+        color: rgb(18, 4, 4);
+        font-style: italic;
+    }
+}
+
+/* Responsive styles for small screens */
+@media (min-width: 800px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+    .last-order {
+        height: 80%;
+        margin-bottom: 50%;
+    }
+    h4 {
+        text-align: left;
+        font-style: italic;
+    }
+    .h {
+        color: rgb(202, 34, 34);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border-radius: 4px;
+        background: linear-gradient(to right, #fd0202c2, #b8e743, #ff0707be);
+    }
+    .main {
+        background-color: #b7c0c3;
+    }
+}
+
+/* Default styles, the copyright footer is hidden */
+.copyright-footer {
+    display: none;
+}
+
+/* Show the copyright footer on small screens (adjust the max-width as needed) */
+@media screen and (max-width: 768px) {
+    .copyright-footer {
+        display: block;
+        text-align: center;
+        background-color: #3d0101;
+        color: #fff;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+}
