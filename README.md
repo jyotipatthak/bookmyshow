@@ -114,6 +114,6 @@ if you are a new user and haven't done any booking previously.
 ## Feedback
 
 If you have any feedback, please reach out to us at
-faisalqrs19@gmail.com / jyotipathak604@gmail.com
+ jyotipathak604@gmail.com / faisalqrs19@gmail.com 
 
 
