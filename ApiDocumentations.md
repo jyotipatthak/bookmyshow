@@ -139,7 +139,7 @@ Api Links/Endpoints
 For Frontend :-<br>
 	On  local System = http://localhost:3000
 	<br>
-	Live Link  	=  https://653ce67b20505e77c7032402--jbookmyshow.netlify.app/
+	Live Link  	=  https://jbookmyshow.netlify.app/
 
 For Backend :- <br>
 	POST Request =  http://localhost:8080/api/booking  

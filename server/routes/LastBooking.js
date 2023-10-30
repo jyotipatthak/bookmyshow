@@ -3,7 +3,7 @@ const routes = express.Router();
 const { connection } = require("../connector");
 
 // This API is for getting the Last Booking details
-routes.get("https://bookmyshow-8li1.onrender.com/Api/booking", async (req, res) => {
+routes.get("https://bookmyshow-8li1.onrender.com/Api/booking/lastbooking", async (req, res) => {
   try {
     // Finding all saved movies in our database and selecting only the last one.
     await connection

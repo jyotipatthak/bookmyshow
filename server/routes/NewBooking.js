@@ -4,7 +4,7 @@ const { connection } = require("../connector");
 const mongoose = require("mongoose");
 ///      This API is for Booking Movie      ///
 
-routes.post("/booking", async (req, res) => {
+routes.post("https://bookmyshow-8li1.onrender.com/Api/booking/api/booking/newbooking", async (req, res) => {
   try {
     if (!req.body.movie) {
       res.status(400).json({ ERROR: "Movies Name Required" });
