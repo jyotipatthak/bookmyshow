@@ -99,7 +99,7 @@ if you are a new user and haven't done any booking previously.
 4.  After selecting and hitting book button it will show you an alert of TICKET BOOKED SUCCESSFULLY.
 <br> 
 
-![Alt Screenshot](/screenshots/3.png )
+![Alt Screenshot](/ScreenShots/3.png)
 
 
 
@@ -114,6 +114,6 @@ if you are a new user and haven't done any booking previously.
 ## Feedback
 
 If you have any feedback, please reach out to us at
-faisalqrs19@gmail.com / jyotipathak604@gmail.com
+ jyotipathak604@gmail.com / faisalqrs19@gmail.com 
 
 
